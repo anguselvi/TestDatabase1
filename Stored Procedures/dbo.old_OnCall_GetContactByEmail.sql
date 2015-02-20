@@ -1,3 +1,4 @@
+
 SET QUOTED_IDENTIFIER ON
 GO
 SET ANSI_NULLS ON
@@ -45,8 +46,8 @@ BEGIN TRY
 	SELECT con.[ContactID], con.[FirstName], con.[LastName], con.[EMail],
 			con.[WorkPhone], con.[CellPhone], con.[HomePhone], con.[PreferredContactType], con.[Username]
 		FROM [OnCallContacts] con
-		WHERE
-			con.[Email] LIKE @Email
+		--WHERE
+		--	con.[Email] LIKE @Email
 
 END TRY
 
