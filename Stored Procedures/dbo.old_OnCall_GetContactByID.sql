@@ -1,3 +1,4 @@
+
 SET QUOTED_IDENTIFIER ON
 GO
 SET ANSI_NULLS ON
@@ -19,6 +20,7 @@ GO
 --  Date               Who             Description
 -- ---------    -------------------  --------------------------------------
 -- 06/06/2007   John Hacker          Initiator
+-- 06/06/2007   DG          Initiator
 -- ------------------------------------------------------------------------
 --
 -- Description:	This procedure is used to retrieve an OnCall contact by ContactID
