@@ -1,3 +1,4 @@
+
 SET QUOTED_IDENTIFIER ON
 GO
 SET ANSI_NULLS ON
@@ -10,7 +11,7 @@ AS
 DECLARE @StartDate DATETIME
 DECLARE @EndDate DATETIME
 SET @StartDate = GETDATE()
-SET @EndDate = DATEADD(dd,4,@StartDate)
+SET @EndDate = DATEADD(dd,2,@StartDate)
 
 
 SELECT 
