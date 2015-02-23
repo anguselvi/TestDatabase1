@@ -28,7 +28,8 @@ GO
 ----------------------------------------------------------------------------------
 
 CREATE PROCEDURE [dbo].[old_OnCall_GetContactByEmail]
-@Email VARCHAR(100)
+@Email VARCHAR(100),
+@Test1 INT
 
 AS
 
