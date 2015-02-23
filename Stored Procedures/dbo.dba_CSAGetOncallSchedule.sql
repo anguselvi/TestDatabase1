@@ -10,7 +10,7 @@ AS
 DECLARE @StartDate DATETIME
 DECLARE @EndDate DATETIME
 SET @StartDate = GETDATE()
-SET @EndDate = DATEADD(dd,2,@StartDate)
+SET @EndDate = DATEADD(dd,4,@StartDate)
 
 
 SELECT 
